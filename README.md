@@ -21,3 +21,4 @@ Or make your own on line 582
 Credits: Almost everything was made by me except token bruteforce (Social404) and token checker (GuFFy_OwO).
 
 Have fun, and remember that almost all nitro and tokens won't work but you can still try them.
+PS. For the token checker the indivual file checker is broken so make a new folder and put your tokens in there, then use option 2 for multiple files.
