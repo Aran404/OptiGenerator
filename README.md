@@ -16,7 +16,7 @@ If that doesn't work try:
 typing the following: python3 -m pip install colorama, python3 -m pip install requests, python3 -m pip install ctypes
 
 Use license keys: "Aran","Aran1","OptiTokens","Airan","Tokens","Access","LetUserIn","Beginner","Github","Working","Discord","Generator","14","FirstProject","Commit"
-Or make your own on line 580
+Or make your own on line 582
 
 Credits: Almost everything was made by me except token bruteforce (Social404) and token checker (GuFFy_OwO).
 
