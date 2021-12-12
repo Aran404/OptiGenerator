@@ -61,11 +61,11 @@ def checker():
     checkType = input(f"{Fore.CYAN}>{Fore.RESET}Select An Option{Fore.CYAN}:{Fore.RESET} ")
     if "1" in checkType:
         print()
-        tokenFileName = input(f"{Fore.CYAN}>{Fore.RESET}Enter the name of the file in wich are the unchecked tokens{Fore.CYAN}:{Fore.RESET} ")
+        tokenFileName = input(f"{Fore.CYAN}>{Fore.RESET}Enter the name of the file where the unchecked tokens are{Fore.CYAN}:{Fore.RESET} ")
         checkName = os.path.splitext(os.path.basename(tokenFileName))[0]
     elif "2" in checkType:
         print()
-        tokenDirectoryName = input(f"{Fore.CYAN}>{Fore.RESET}Enter the directory of the files in wich are the unchecked tokens{Fore.CYAN}:{Fore.RESET} ")
+        tokenDirectoryName = input(f"{Fore.CYAN}>{Fore.RESET}Enter the directory of the files in which all the unchecked tokens are in{Fore.CYAN}:{Fore.RESET} ")
         checkName = os.path.basename(tokenDirectoryName)
         if not os.path.exists(tokenDirectoryName):
             print()
@@ -80,7 +80,7 @@ def checker():
             None
         elif "2" in ckeckFilesType:
             print()
-            fileTypes = ["." + x for x in input(f"{Fore.CYAN}>{Fore.RESET}Enter file types in wich are the unchecked tokens separated by space [txt json html ...]{Fore.CYAN}:{Fore.RESET} ").split()]
+            fileTypes = ["." + x for x in input(f"{Fore.CYAN}>{Fore.RESET}Enter file types in which the unchecked are tokens separated by space [txt json html ...]{Fore.CYAN}:{Fore.RESET} ").split()]
         else:
             print()
             print("Invalid Option.")
@@ -596,6 +596,5 @@ def licenses():
                 exit()
             else:
                 exit()
+                
 licenses()
-
-
